@@ -54,7 +54,12 @@ export default defineConfig({
                         { label: "L'Architettura del Computer e il Modello di Von Neumann", link: '/lezione27/' },
                         { label: "La Gerarchia delle Memorie e le Memorie di Massa", link: '/lezione28/' },
                     ]
-                }, // <-- Virgola importantissima che separa le categorie!    
+                },
+                {
+					label: 'Gestione dei Processi',
+					autogenerate: { directory: 'processi' },
+					collapsed: true,
+				}, // <-- Virgola importantissima che separa le categorie!    
                 {
                     label: 'Educazione Civica',
                     collapsed: true,
